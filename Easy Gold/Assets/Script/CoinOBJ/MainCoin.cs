@@ -6,6 +6,7 @@ public class MainCoin : MonoBehaviour
 {
     public Collider2D collider;
     public Animator anim;
+    //this is the original
     void Start()
     {
         
