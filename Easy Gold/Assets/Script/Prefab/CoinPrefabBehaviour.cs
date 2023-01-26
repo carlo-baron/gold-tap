@@ -24,11 +24,8 @@ public class CoinPrefabBehaviour : MonoBehaviour
 
     }
     void Update(){
-        Invoke("Move", 5f);
+        Invoke("Move", whenToFly);
         distance = (int)Vector2.Distance(transform.position, toGoPos.position);
-        // if(distance <= 0){  
-        //     Destroy(gameObject);
-        // }
     }
 
 

@@ -139,5 +139,5 @@ MonoBehaviour:
   rb: {fileID: 2326765960844217781}
   startUpHeight: 6
   amount: 0
-  movingSpeed: 11
+  movingSpeed: 20
   whenToFly: 2
